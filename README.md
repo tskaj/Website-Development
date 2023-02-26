@@ -1,2 +1,2 @@
 # Website-Development
-Developing website for Phscotherapy
+Developing website for Phsycotherapy
