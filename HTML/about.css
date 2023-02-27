@@ -60,6 +60,7 @@ body {
   font-weight: bolder;
   border-radius: 10px;
 }
+/* Nav-bar CSS */
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -87,10 +88,10 @@ nav a:after {
 }
 
 nav a:hover:after {
-	border-color: #ff0000; /* Change this to the desired color */
+	border-color: #ff0000; 
 }
 .navbar-brand img {
-  max-height: 200px; /* Adjust as needed */
-  margin-top: -10px; /* Adjust as needed */
+  max-height: 200px; 
+  margin-top: -10px; 
   width: 400px;
 }
