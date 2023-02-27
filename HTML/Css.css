@@ -1,0 +1,38 @@
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	position: relative;
+	text-decoration: none;
+}
+
+nav a:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+	width: 100%;
+	border-bottom: 2px solid transparent;
+	transition: border-color 0.3s ease-in-out;
+}
+
+nav a:hover:after {
+	border-color: #ff0000; /* Change this to the desired color */
+}
+.navbar-brand img {
+  max-height: 200px; /* Adjust as needed */
+  margin-top: -10px; /* Adjust as needed */
+  width: 400px;
+}
+.img-size {
+  width: 200px;
+  height: 100px;
+}
