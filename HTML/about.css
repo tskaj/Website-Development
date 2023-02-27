@@ -24,22 +24,41 @@ body {
   width: 600px;
   line-height: 25px;
 }
-.box-div h4 {
-  justify-content: center;
+.box-div {
+  background-color: #fcde67;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.box-heading {
   text-align: center;
+  width: 500px;
+  margin-bottom: 40px;
+  background-color: green;
 }
 .gridbox {
   display: grid;
   grid-template-columns: 200px 200px 200px 200px;
-  grid-gap: 50px;
+  column-gap: 100px;
+  row-gap: 50px;
   justify-content: center;
+}
+.bottom-heading {
+  text-align: center;
+  width: 700px;
+  word-spacing: 7px;
+  margin-top: 20px;
+  background-color: green;
 }
 .box {
   width: 200px;
   height: 100px;
-  background-color: rgb(84, 230, 108);
+  background-color: #5bccf6;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bolder;
+  border-radius: 10px;
 }
