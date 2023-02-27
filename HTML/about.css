@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+}
+.heading {
+  background-color: antiquewhite;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
