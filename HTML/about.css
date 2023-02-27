@@ -25,7 +25,7 @@ body {
   line-height: 25px;
 }
 .box-div {
-  background-color: #fcde67;
+  background-color: antiquewhite;
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -53,7 +53,7 @@ body {
 .box {
   width: 200px;
   height: 100px;
-  background-color: #5bccf6;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
