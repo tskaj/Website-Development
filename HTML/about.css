@@ -36,7 +36,6 @@ body {
   text-align: center;
   width: 500px;
   margin-bottom: 40px;
-  background-color: green;
 }
 .gridbox {
   display: grid;
@@ -50,7 +49,6 @@ body {
   width: 700px;
   word-spacing: 7px;
   margin-top: 20px;
-  background-color: green;
 }
 .box {
   width: 200px;
