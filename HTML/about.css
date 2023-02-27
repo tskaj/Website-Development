@@ -88,10 +88,22 @@ nav a:after {
 }
 
 nav a:hover:after {
-	border-color: #ff0000; 
+	border-color: #ff0000; /* Change this to the desired color */
 }
 .navbar-brand img {
-  max-height: 200px; 
-  margin-top: -10px; 
+  max-height: 200px; /* Adjust as needed */
+  margin-top: -10px; /* Adjust as needed */
   width: 400px;
+}
+.img-size {
+  width: 200px;
+  height: 130px;
+}
+.navbar-brand img {
+  margin-bottom: 0; /* Remove bottom margin of the image */
+  height: 80px; /* Set a fixed height for the image */
+}
+
+.navbar-nav {
+  margin-top: 0; /* Remove top margin of the navbar */
 }
