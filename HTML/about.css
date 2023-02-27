@@ -28,9 +28,10 @@ body {
   background-color: antiquewhite;
   margin-top: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  height: 100vh;
 }
 .box-heading {
   text-align: center;
@@ -42,23 +43,25 @@ body {
 }
 .gridbox {
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-columns: 150px 150px 150px;
   column-gap: 100px;
-  row-gap: 50px;
+  row-gap: 30px;
   justify-content: center;
 }
 .bottom-heading {
   text-align: center;
-  width: 700px;
   word-spacing: 7px;
   margin-top: 20px;
+  background-color: aqua;
+  height: 100%;
 }
 .bottom-heading h4 {
   font-size: 20px;
+  width: 400px;
 }
 .box {
   width: 200px;
-  height: 100px;
+  height: 50px;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -66,35 +69,42 @@ body {
   font-weight: bolder;
   border-radius: 10px;
 }
+.box-inside {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
 /* Nav-bar CSS */
 nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
-	display: inline-block;
-	margin-right: 20px;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 nav a {
-	position: relative;
-	text-decoration: none;
+  position: relative;
+  text-decoration: none;
 }
 
 nav a:after {
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: -3px;
-	width: 100%;
-	border-bottom: 2px solid transparent;
-	transition: border-color 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
 }
 
 nav a:hover:after {
-	border-color: #ff0000; /* Change this to the desired color */
+  border-color: #ff0000; /* Change this to the desired color */
 }
 .navbar-brand img {
   max-height: 200px; /* Adjust as needed */
