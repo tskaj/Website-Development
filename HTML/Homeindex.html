@@ -5,26 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Zaeema Ahmad Counselling Services</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="Homeindex.css" />
-    <link rel="stylesheet" type="text/css" href="external.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Css.css" />
+    <link rel="stylesheet" type="text/css" href="Homeindex.css">
+    <style>
+      .image-container {
+        position: relative;
+        width: 100%;
+        height: 900px;
+      }
+      .centered-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-md navbar-light bg-light justify-content-center"
-    >
+    <nav class="navbar navbar-expand-md navbar-light bg-light justify-content-center">
       <a class="navbar-brand" href="Homeindex.html">
-        <img src="Peachpuff Brush Stroke Photography Logo.png" alt="Logo" />
+        <img src="Peachpuff Brush Stroke Photography Logo.png" alt="Logo">
       </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-      >
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -50,6 +53,9 @@
         </ul>
       </div>
     </nav>
-    <img src="pexels-roman-odintsov-4551832.jpg " width="1455" height="900" />
+    <div class="image-container">
+      <img src="pexels-roman-odintsov-4551832.jpg" class="blur-image" width="1455" height="900">
+      <button type="button" class="btn btn-danger centered-button">Book Appointment</button>
+    </div>
   </body>
 </html>
