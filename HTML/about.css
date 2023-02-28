@@ -28,13 +28,24 @@ body {
   line-height: 25px;
   width: 800px;
 }
-.about-hero {
+/* .about-hero {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
   flex-direction: column;
+} */
+.about-hero ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: rgb(190, 161, 161);
+  list-style: none;
 }
-
+.about-hero {
+  text-align: center;
+  margin-top: 20px;
+}
 /* Nav-bar CSS */
 nav ul {
   list-style-type: none;
