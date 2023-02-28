@@ -32,10 +32,6 @@ nav a:hover:after {
   margin-top: -10px; /* Adjust as needed */
   width: 400px;
 }
-.img-size {
-  width: 200px;
-  height: 130px;
-}
 .navbar-brand img {
   margin-bottom: 0; /* Remove bottom margin of the image */
   height: 80px; /* Set a fixed height for the image */

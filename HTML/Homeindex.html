@@ -8,11 +8,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="Css.css" />
     <link rel="stylesheet" type="text/css" href="Homeindex.css">
+
     <style>
       .image-container {
         position: relative;
         width: 100%;
-        height: 900px;
+        height: auto;
+        padding-bottom: 56.25%;
+      }
+      .blur-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: blur(5px);
       }
       .centered-button {
         position: absolute;
@@ -23,44 +31,44 @@
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light justify-content-center">
-      <a class="navbar-brand" href="Homeindex.html">
-        <img src="Peachpuff Brush Stroke Photography Logo.png" alt="Logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="Homeindex.html">Home</a>
-          </li>
-          <li class="nav-item ml-4 mr-4">
-            <a class="nav-link" href="About us.html">About us</a>
-          </li>
-          <li class="nav-item ml-4 mr-4">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item ml-4 mr-4">
-            <a class="nav-link" href="Book Appointment.html">Book Appointment</a>
-          </li>
-          <li class="nav-item ml-4 mr-4">
-            <a class="nav-link" href="#">FAQ</a>
-          </li>
-          <li class="nav-item ml-4">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid pl-5 pr-5">
+        <a class="navbar-brand" href="Homeindex.html">
+          <img src="White_Modern_Beauty_Logo__2_-removebg-preview.png" style="width: 200px; height: auto;" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Homeindex.html">Home</a>
+            </li>
+            <li class="nav-item ml-4 mr-4">
+              <a class="nav-link" href="About us.html">About us</a>
+            </li>
+            <li class="nav-item ml-4 mr-4">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item ml-4 mr-4">
+              <a class="nav-link" href="Book Appointment.html">Book Appointment</a>
+            </li>
+            <li class="nav-item ml-4 mr-4">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item ml-4">
+              <a class="nav-link" href="#">Contact</a>
+            </li>          </ul>
+        </div>
       </div>
-    </nav>
+    </nav>    
     <div class="image-container">
       <img src="pexels-roman-odintsov-4551832.jpg" class="blur-image" width="1455" height="900">
-      <button type="button" class="btn btn-danger centered-button" href="Book Appointment.html">Book Appointment</button>
+      <a href="Book Appointment.html" class="btn btn-danger centered-button d-block mx-auto mb-3">Book Appointment</a>
     </div>
     <p><H1>Zaeema Ahmad, PhD, RP</H1><br>
       I am registered with the College of Registered Psychotherapists of Ontario (CRPO) and a member of Ontario Association of Mental Health Professionals (OAHMP).<br>
       Life can be overwhelming sometimes, and we may need support in exploring and understanding our concerns from a different perspective to cope with life challenges and move forward. It takes courage to reach out, and I am here to support you in your journey towards healing and self-discovery.
-    </p> 
-    
+    </p>    
   </body>
 </html>
