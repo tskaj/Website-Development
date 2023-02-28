@@ -28,6 +28,12 @@ body {
   line-height: 25px;
   width: 800px;
 }
+.about-hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
 
 /* Nav-bar CSS */
 nav ul {
