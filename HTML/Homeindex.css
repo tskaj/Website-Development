@@ -46,4 +46,19 @@ nav a:hover:after {
   button{
     font-weight: bolder;
   }
+  .box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1; /* to bring the box above the image */
+	width: 80%; /* adjust the width to your preference */
+	max-width: 600px; /* set a maximum width to ensure it doesn't get too wide */
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	text-align: center;
+  }
+  
   
