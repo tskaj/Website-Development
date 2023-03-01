@@ -10,24 +10,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.main {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 500px;
-  background-color: gray;
-}
-.profile img {
-  height: 500px;
-}
-.profile img:hover {
-  transform: scale(1.1, 1.1);
-  transition: 0.8s;
-}
-.profile-para {
-  line-height: 25px;
-  width: 800px;
-}
+
 .about-hero {
   display: flex;
   justify-content: center;
@@ -57,7 +40,42 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-
+.img-1 img,
+.img-2 img {
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  transition: 0.7s;
+}
+.img-1 img:hover {
+  transform: scale(1.2, 1.2);
+}
+.img-2 img:hover {
+  transform: scale(1.2, 1.2);
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.profile-1 {
+  background-color: rgb(108, 110, 110);
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profile-2 {
+  background-color: rgb(76, 67, 85);
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 /* Nav-bar CSS */
 nav ul {
   list-style-type: none;
