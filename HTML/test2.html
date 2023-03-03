@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Choosing to Heal</title>
+	<style>
+		.popup {
+			background-color: lightpink;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+			z-index: 9999;
+		}
+		
+		.popup.show {
+			opacity: 1;
+			visibility: visible;
+		}
+		
+		.popup__content {
+			background-color: white;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+			text-align: center;
+			max-width: 80%;
+			max-height: 80%;
+			overflow: auto;
+		}
+		
+		.popup__close {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			font-size: 20px;
+			font-weight: bold;
+			color: gray;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="popup show">
+		<div class="popup__content">
+			<h2>Welcome to Choosing to Heal</h2>
+			<p>Psychotherapy and Counselling Services</p>
+			<p>Life can be overwhelming sometimes, and we may need support in exploring and understanding our concerns from a different perspective to cope with life challenges and move forward. It takes courage to reach out, and we are here to support you in your journey towards healing and self-discovery.</p>
+			<blockquote>
+				<p>“The most beautiful people we have known are those who have known defeat, known suffering, known struggle, known loss, and have found their way out of the depths. These persons have an appreciation, a sensitivity, and an understanding of life that fills them with compassion, gentleness, and a deep loving concern. Beautiful people do not just happen.”</p>
+				<footer>- Elisabeth Kübler-Ross</footer>
+			</blockquote>
+			<p>BOOK AN APPOINTMENT:</p>
+			<a href="https://choosingtoheal.janeapp.com/" target="_blank">Click Here</a>
+			<span class="popup__close">&times;</span>
+		</div>
+	</div>
+
+	<script>
+		function showPopup() {
+			if (!localStorage.getItem('popupShown')) {
+				const popup = document.querySelector('.popup');
+				popup.classList.add('show');
+				localStorage.setItem('popupShown', true);
+			}
+		}
+
+		showPopup();
+
+		const closeButtons = document.querySelectorAll('.popup__close');
+
+		closeButtons.forEach(closeButton => {
+			closeButton.addEventListener('click', () => {
+				const popup = closeButton.parentElement.parentElement;
+				popup.classList.remove('show');
+			});
+		});
+	</script>
+</body>
+</html>
