@@ -15,26 +15,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  font-weight: bolder;
+  flex-direction: row;
+  background-color: black;
 }
-.about-hero ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  background-color: rgb(190, 161, 161);
-  list-style: none;
-  height: 140px;
+.about-hero-pic img {
+  width: 600px;
 }
-.about-hero {
-  text-align: center;
-  margin-top: 20px;
+.about-hero-text {
+  width: 600px;
+  padding: 30px;
+  color: white;
 }
-.about-hero p {
-  width: 500px;
-  text-align: center;
-}
+
 .row {
   display: flex;
   justify-content: space-around;
