@@ -204,3 +204,23 @@ button {
 .team-button {
   margin-top: 50px;
 }
+/* Out Team Section */
+.profile1 img {
+  width: 200px;
+  border-radius: 50%;
+}
+.profile2 img {
+  width: 200px;
+  border-radius: 50%;
+}
+.profile1,
+.profile2 {
+  width: 300px;
+  background-color: rgb(87, 115, 240);
+  padding: 10px;
+}
+.team-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
