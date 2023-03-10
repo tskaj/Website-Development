@@ -1,31 +1,31 @@
 nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
-	display: inline-block;
-	margin-right: 20px;
+  display: inline-block;
+  margin-right: 20px;
 }
 
 nav a {
-	position: relative;
-	text-decoration: none;
+  position: relative;
+  text-decoration: none;
 }
 
 nav a:after {
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: -3px;
-	width: 100%;
-	border-bottom: 2px solid transparent;
-	transition: border-color 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
 }
 
 nav a:hover:after {
-	border-color: #ff0000; /* Change this to the desired color */
+  border-color: #ff0000; /* Change this to the desired color */
 }
 .navbar-brand img {
   max-height: 200px; /* Adjust as needed */
@@ -41,119 +41,118 @@ nav a:hover:after {
   margin-top: 0; /* Remove top margin of the navbar */
 }
 .blur-image {
-	filter: blur(2px);
-  }
-  button{
-    font-weight: bolder;
-  }
-  .box {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 1; /* to bring the box above the image */
-	width: 80%; /* adjust the width to your preference */
-	max-width: 600px; /* set a maximum width to ensure it doesn't get too wide */
-	padding: 20px;
-	background-color: white;
-	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-	text-align: center;
-  }
-  .quote-container {
-	background-color: #f5f5f5;
-	border: 1px solid #ddd;
-	border-radius: 5px;
-	padding: 20px;
-	margin: 20px 0;
-  }
-  
-  .quote {
-	font-style: italic;
-	font-size: 1.2em;
-	line-height: 1.5;
-	color: #555;
-	margin: 0;
-  }
-  
-  .quote-author {
-	text-align: right;
-	margin-top: 10px;
-	font-style: normal;
-	font-size: 1.1em;
-	color: #999;
-  }
-  /* Pop-up */
-  .overlay {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: rgba(255, 192, 203, 0.7);
-	z-index: 9999;
-	opacity: 0;
-	visibility: hidden;
-	transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  filter: blur(2px);
+}
+button {
+  font-weight: bolder;
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* to bring the box above the image */
+  width: 80%; /* adjust the width to your preference */
+  max-width: 600px; /* set a maximum width to ensure it doesn't get too wide */
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.quote-container {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #555;
+  margin: 0;
+}
+
+.quote-author {
+  text-align: right;
+  margin-top: 10px;
+  font-style: normal;
+  font-size: 1.1em;
+  color: #999;
+}
+/* Pop-up */
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 192, 203, 0.7);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 
 /* Styling for pop-up */
 .popup {
-	position: relative;
-	background-color: #fff;
-	padding: 30px;
-	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-	max-width: 400px;
-	text-align: center;
+  position: relative;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  text-align: center;
 }
 
 .popup h2 {
-	font-size: 24px;
-	margin-bottom: 15px;
+  font-size: 24px;
+  margin-bottom: 15px;
 }
 
 .popup p {
-	font-size: 16px;
-	margin-bottom: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
 .popup button {
-	display: inline-block;
-	padding: 10px 20px;
-	background-color: lightpink;
-	color: #fff;
-	border: none;
-	border-radius: 5px;
-	font-size: 16px;
-	cursor: pointer;
-	transition: background-color 0.3s ease-in-out;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lightpink;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .popup button:hover {
-	background-color: #fff;
-	color: lightpink;
+  background-color: #fff;
+  color: lightpink;
 }
 
 /* Styling for close button */
 .popup .close {
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	font-size: 20px;
-	color: #aaa;
-	cursor: pointer;
-	transition: color 0.3s ease-in-out;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #aaa;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
 }
 
 .popup .close:hover {
-	color: #555;
+  color: #555;
 }
-  
-
-  
-  
-  
+.image-container img {
+  height: 100%;
+  width: 100%;
+}
