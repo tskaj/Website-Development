@@ -204,3 +204,17 @@ button {
 .team-button {
   margin-top: 50px;
 }
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  flex-basis: 30%;
+  margin-right: 20px;
+}
+
+.right {
+  flex-basis: 70%;
+}
+
