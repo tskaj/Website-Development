@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: azure;
+  height: 70vh;
+}
+.quote {
+  width: 600px;
+  text-align: center;
+  font-size: 25px;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: blue;
+}
+.page-para {
+  width: 700px;
+  padding-left: 40px;
+}
+.page-para p {
+  width: 500px;
+}
+.page-pic img {
+  width: 600px;
+  height: 500px;
+}
