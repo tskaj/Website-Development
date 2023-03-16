@@ -204,35 +204,6 @@ button {
 .team-button {
   margin-top: 50px;
 }
-<<<<<<< HEAD
-/* Out Team Section */
-.profile1 img {
-  width: 180px;
-  border-radius: 50%;
-}
-.profile2 img {
-  width: 180px;
-  border-radius: 50%;
-}
-.profile1,
-.profile2 {
-  width: 300px;
-  background-color: rgb(87, 115, 240);
-  padding: 10px;
-  transition: 0.6s;
-}
-.profile1:hover {
-  transform: scale(1.05, 1.05);
-}
-.profile2:hover {
-  transform: scale(1.05, 1.05);
-}
-.team-main {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-=======
 .container {
   display: flex;
   flex-direction: row;
@@ -247,4 +218,3 @@ button {
   flex-basis: 70%;
 }
 
->>>>>>> f22b41d03d41635cdea95fd9745973a75205bff4
