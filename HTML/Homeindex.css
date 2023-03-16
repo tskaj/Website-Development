@@ -204,6 +204,7 @@ button {
 .team-button {
   margin-top: 50px;
 }
+<<<<<<< HEAD
 /* Out Team Section */
 .profile1 img {
   width: 180px;
@@ -231,3 +232,19 @@ button {
   justify-content: space-around;
   align-items: center;
 }
+=======
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  flex-basis: 30%;
+  margin-right: 20px;
+}
+
+.right {
+  flex-basis: 70%;
+}
+
+>>>>>>> f22b41d03d41635cdea95fd9745973a75205bff4
