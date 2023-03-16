@@ -217,4 +217,14 @@ button {
 .right {
   flex-basis: 70%;
 }
+.box {
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.team-container {
+  padding: 200px;
+  margin-top: -20px;
+}
+
 
